@@ -1,9 +1,6 @@
 <style media="screen">
   li {
-    height : 100px;
-    width: 100px;
     color: red;
-    background-color: purple;
     margin-bottom: 30px;
   }
 </style>
@@ -12,6 +9,11 @@
 
 <ul>
 {{#each flavors }}
-  <li>{{icecreams}}</li>
+	<li>
+		<p>Flavor: {{name}}</p>
+		<p>Price: ${{price}}</p>
+		<p>Awesomeness: {{awesomeness}}</p>
+	</li>
+	<hr>
 {{/each}}
 </ul>

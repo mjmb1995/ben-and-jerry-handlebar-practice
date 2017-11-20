@@ -1,0 +1,19 @@
+{
+  "name": "ben-and-jerry-handlebar-practice",
+  "version": "1.0.0",
+  "description": "learning handlebars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjmb1995/ben-and-jerry-handlebar-practice.git"
+  },
+  "author": "Mark Bihag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjmb1995/ben-and-jerry-handlebar-practice/issues"
+  },
+  "homepage": "https://github.com/mjmb1995/ben-and-jerry-handlebar-practice#readme"
+}

@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/mjmb1995/ben-and-jerry-handlebar-practice/issues"
   },
-  "homepage": "https://github.com/mjmb1995/ben-and-jerry-handlebar-practice#readme"
+  "homepage": "https://github.com/mjmb1995/ben-and-jerry-handlebar-practice#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "nodemon": "^1.12.1"
+  }
 }

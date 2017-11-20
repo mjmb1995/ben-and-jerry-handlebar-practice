@@ -41,21 +41,18 @@ var icecreams = [
     ];
 
 app.get("/icecream/:name", function(req, res){
-	var selected = req.params.name
-	var selectedIndex
 	for(var i = 0; i < icecreams.length; i++){
-		if (selected === icecreams[i].name){
-			return selectedIndex = i;
+		if (req.params.name === icecreams[i].name){
+			res.render("index", icecreams[i])
 		}
 	}
-	res.render("index", icecreams[selectedIndex])
 })
 
 app.get("/icecreams", function(req, res){
 	res.render("all-icecreams", {
 		flavors: icecreams
-	})
-})
+	});
+});
 // Initiate the listener.
 app.listen(port);
 
